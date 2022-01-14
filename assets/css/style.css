@@ -196,6 +196,11 @@ ul {
     margin: 80px auto;
 }
 
+.services-section-upper {
+    display: flex;
+    flex-direction: row;
+}
+
 .services-section img {
     width: 200px;
     height: 200px;
