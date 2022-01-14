@@ -102,3 +102,21 @@ nav a {
     top: 40%;
     text-align: center;
 }
+
+/* Partners Section */
+
+#partners {
+    display: flex;
+    justify-content: space-around;
+}
+
+.partner {
+    width: 20%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.partner img {
+    width: 202px;
+    height: 300px;
+}
