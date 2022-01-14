@@ -85,9 +85,20 @@ nav a {
     position: relative;
 }
 
-#hero-image {
+#hero-inner {
     min-height: 28rem;
     max-width: 100%;
     background: url("../imgs/hero1.jpg") no-repeat center;
     background-size: cover;
+}
+
+#cover-text {
+    display: flex;
+    width: 20%;
+    height: fit-content;
+    text-transform: uppercase;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    text-align: center;
 }
