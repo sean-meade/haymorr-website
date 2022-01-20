@@ -184,13 +184,13 @@ ul {
 /* Services Page */
 
 #services-intro {
-    width: 80%;
+    width: 65ch;
     margin: auto;
     padding-top: 40px;
 }
 
 .services-section {
-    width: 80%;
+    width: 65ch;
     display: flex;
     flex-direction: column;
     margin: 80px auto;
@@ -205,4 +205,17 @@ ul {
     width: 200px;
     height: 200px;
     margin-right: 30px;
+}
+
+#service-lists {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 65ch;
+}
+
+#services-list {
+    list-style: none;
+    width: 40%;
+    margin: auto;
 }
