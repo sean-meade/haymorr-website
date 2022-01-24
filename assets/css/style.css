@@ -46,11 +46,17 @@ header {
 }
 
 #logo {
-    width: fit-content;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-left: 3rem;
+    margin-left: 30%;
+}
+
+#logo img {
+    width: 63px;
+}
+
+#logo p {
+    width: 63px;
 }
 
 nav {
@@ -141,6 +147,93 @@ nav a {
     margin-left: 30px;
 }
 
+/* Services Page */
+
+#section-intro {
+    width: 75ch;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.services-section {
+    width: 75ch;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+.services-section h2 {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.services-section-upper {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.services-section img {
+    width: 200px;
+    height: 200px;
+    margin: 0 0 30px 30px;
+}
+
+#image-on-left {
+    margin: 0 30px 30px 0;
+}
+
+#service-lists {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 65ch;
+}
+
+#services-list {
+    list-style: none;
+    width: 40%;
+    margin: auto;
+}
+
+/* Contact Form */
+
+#contact-form-container {
+    width: 100%;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+#contact-form button {
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #B7FDFE;
+    padding: 10px;
+    margin: 0.5rem 0 1rem 0;
+    float: right;
+    border: none;
+}
+
+textarea {
+    resize: none;
+}
+
 /* Footer */
 
 footer {
@@ -150,6 +243,7 @@ footer {
     background-color: #533745;
     color: #B7FDFE;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -177,45 +271,11 @@ footer p {
     margin: 3px auto;
 }
 
-ul {
+footer ul {
     padding-top: 10px;
 }
 
-/* Services Page */
-
-#section-intro {
-    width: 65ch;
-    margin: auto;
-    padding-top: 40px;
-}
-
-.services-section {
-    width: 65ch;
-    display: flex;
-    flex-direction: column;
-    margin: 80px auto;
-}
-
-.services-section-upper {
-    display: flex;
-    flex-direction: row;
-}
-
-.services-section img {
-    width: 200px;
-    height: 200px;
-    margin-right: 30px;
-}
-
-#service-lists {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    width: 65ch;
-}
-
-#services-list {
-    list-style: none;
-    width: 40%;
-    margin: auto;
+footer p {
+    color: #fff;
+    margin-top: 0.5rem;
 }
