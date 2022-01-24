@@ -1,9 +1,16 @@
-var helpItems = document.querySelectorAll(".help");
+var helpItems = document.querySelectorAll(".help-item");
 
-console.log(helpItems)
+console.log(helpItems);
 
 helpItems.forEach(helpItem => helpItem.addEventListener('click', (event) => {
-    console.log("hello");
+    if (helpItem.children[1].style.visibility === "hidden") {
+        console.log(helpItem.children)
+        helpItem.children[1].style.visibility = "visible";
+        helpItem.style.height = "fit-content";
+    } else {
+        helpItem.children[1].style.visibility = "hidden";
+        helpItem.style.height = "3rem";
+    }
 }))
 
 function expand(){
