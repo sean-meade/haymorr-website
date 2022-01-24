@@ -49,14 +49,19 @@ header {
     display: flex;
     flex-direction: column;
     margin-left: 30%;
+    width: 63px;
+    /* transition:all 2s; */
 }
 
-#logo img {
-    width: 63px;
+#logo-image {
+    width: 53px;
+    transition:all 1s;
 }
 
-#logo p {
+#logo-text {
     width: 63px;
+    color: #533745;
+    transition:all 1s;
 }
 
 nav {
@@ -282,6 +287,10 @@ a:visited,
 a:hover, 
 a:active {
     color: inherit;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 footer p {
