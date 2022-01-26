@@ -24,3 +24,9 @@ function returnNormal() {
     document.getElementById('logo-image').style.width = "53px";
 }
 
+if (history.scrollRestoration) {
+    // history.scrollRestoration = 'manual';
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }
+}
